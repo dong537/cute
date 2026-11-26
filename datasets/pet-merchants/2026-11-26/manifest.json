@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-26T03:40:27.149Z",
+  "source_snapshot": "source-merchants.jsonl",
+  "source_bytes": 79679991,
+  "source_sha256": "11f7f25682efa01251d8c90327069fa7be918183eabb206a3a5363b054af55a3",
+  "source_file_modified_at": "2026-11-26T03:22:18.044Z",
+  "records_in": 101621,
+  "records_published": 101476,
+  "excluded_personal": 50,
+  "excluded_possible_personal": 95,
+  "by_site": {
+    "bagong": 992,
+    "achong": 2308,
+    "apwol": 203,
+    "mengchong": 3800,
+    "uchongs": 94173
+  },
+  "columns": [
+    "source_site",
+    "merchant_url",
+    "name",
+    "provider_type",
+    "address",
+    "address_hint",
+    "hours",
+    "price_text",
+    "rating_text",
+    "claim_status",
+    "public_fields",
+    "source_urls",
+    "fetched_at",
+    "verified",
+    "license_verified"
+  ],
+  "removed": [
+    "personal_or_unverified records",
+    "possible personal boarding records",
+    "phone",
+    "description",
+    "image_urls",
+    "phone_label_raw",
+    "map_coordinates_raw",
+    "public_fields.url",
+    "contact and personal identity detail_facts",
+    "phone numbers embedded in retained text"
+  ],
+  "note": "Third-party source facts; verified and license_verified retain their original values. User confirmed redistribution permission; per-source evidence was not independently audited.",
+  "files": {
+    "merchants.jsonl.gz": {
+      "bytes": 6639244,
+      "sha256": "64033fbf7338ae0693e9c1f5df6d9766103439404c5b5d682d90f413bec8ae5d"
+    },
+    "merchants.csv.gz": {
+      "bytes": 6293175,
+      "sha256": "98fa50d1dc1092457fdea4c3b660afd60303b16d0d3ea662ffd4a7e18d004abf"
+    }
+  }
+}

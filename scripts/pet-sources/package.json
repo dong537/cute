@@ -1,0 +1,11 @@
+{
+  "name": "pet-source-research-crawler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0"
+  }
+}
